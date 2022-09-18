@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: darkorchid;
+}
+.header{
+    text-align: center;
+    color: black;
+}
+.header h1{
+    animation-name: letter;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes letter{
+    from{
+        letter-spacing: 1px;
+    }
+    to{
+        letter-spacing: 10px;
+    }
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url(img/banner_2.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+.banner h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.fun{
+    text-align: center;
+    text-decoration: underline;
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 2px solid white;
+    margin: 5px;
+}
+.card img:hover{
+    transform: rotate(15deg);
+}
+img{
+    width: 250px;
+    height: 250px;
+    
+}
+.headbook{
+    text-align: center;
+    text-decoration: underline;
+
+}    
+.frame{
+    width: 90%;
+    height: 300px;
+    border: 2px white solid;
+    background-color: cornflowerblue;
+    margin: 5px;
+}
+.frame img{
+    height: 100%;
+    width: 40%;
+    float: left;
+
+}
+.frame h4{
+    color: green;
+}
+.frame h5{
+    color: red;
+}
+.inf{
+    width: 60%;
+    height: 100%;
+    float: right;
+
+}
+.footer{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px;
+}
